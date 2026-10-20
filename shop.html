@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | BAFFI</title>
+    <meta
+        name="description"
+        content="Shop BAFFI men's fashion — suits, shirts, hoodies, shoes, watches, ties, caps and more."
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/svg file.jpeg">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+    <div class="container header-container">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            BAFFI
+        </a>
+
+        <!-- Mobile menu button -->
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-nav"
+        >
+            ☰
+        </button>
+
+        <!-- Navigation -->
+        <nav class="main-nav" id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Header actions -->
+        <div class="header-actions">
+
+            <a href="cart.html" class="cart-link">
+                Cart <span id="cart-count">0</span>
+            </a>
+
+            <a
+                href="https://wa.me/233207417469"
+                class="whatsapp-link"
+                target="_blank"
+                rel="noopener"
+            >
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+</header>
+
+
+    <!-- SHOP HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Shop BAFFI</h1>
+            <p>
+                Discover timeless men's fashion designed for confidence,
+                style and everyday elegance.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- SHOP SECTION -->
+    <section class="shop-section">
+        <div class="container">
+
+            <!-- FILTERS -->
+            <div class="shop-filters">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="casual">
+                    Casual
+                </button>
+
+                <button class="filter-btn" data-filter="formal">
+                    Formal
+                </button>
+
+                <button class="filter-btn" data-filter="shoes">
+                    Shoes
+                </button>
+
+                <button class="filter-btn" data-filter="accessories">
+                    Accessories
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTS -->
+            <div class="products-grid">
+
+
+                <!-- PRODUCT 1 -->
+                <div class="product-card" data-category="casual">
+
+                    <div class="product-image">
+                        <img
+                            src="images/premium-essential-teeshirt.jpeg"
+                            alt="BAFFI Premium Essential Tee worn by model"
+                        >
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Casual</span>
+
+                        <h3>Premium Essential Tee</h3>
+
+                        <p class="product-price">
+                            GH₵150
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="Premium Essential Tee"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 2 -->
+                <div class="product-card" data-category="casual">
+
+                    <div class="product-image">
+                        <img src="images/Premium-Essential-Hoodie.jpeg" alt="BAFFI Premium Essential Hoodie">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Casual</span>
+
+                        <h3>BAFFI Premium Essential Hoodie</h3>
+
+                        <p class="product-price">
+                            GH₵280
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Premium Essential Hoodie"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 3 -->
+                <div class="product-card" data-category="casual">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-sweatshirt.jpeg" alt="BAFFI Premium Essential Sweatshirt">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Casual</span>
+
+                        <h3>BAFFI Signature Sweatshirt</h3>
+
+                        <p class="product-price">
+                            GH₵250
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Signature Sweatshirt"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 4 -->
+                <div class="product-card" data-category="formal">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-suit.jpeg" alt="BAFFI Classic Suit">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Formal</span>
+
+                        <h3>Classic BAFFI Suit</h3>
+
+                        <p class="product-price">
+                            GH₵850
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="Classic BAFFI Suit"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 5 -->
+                <div class="product-card" data-category="formal">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-dress shirt.jpeg" alt="BAFFI Premium Dress Shirt">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Formal</span>
+
+                        <h3>Premium Dress Shirt</h3>
+
+                        <p class="product-price">
+                            GH₵180
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="Premium Dress Shirt"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 6 -->
+                <div class="product-card" data-category="formal">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-tie.jpeg" alt="BAFFI Classic Tie">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Formal</span>
+
+                        <h3>BAFFI Classic Tie</h3>
+
+                        <p class="product-price">
+                            GH₵90
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Classic Tie"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 7 -->
+                <div class="product-card" data-category="shoes">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-shoes.jpeg" alt="BAFFI Classic Men's Shoes">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Shoes</span>
+
+                        <h3>BAFFI Classic Men's Shoes</h3>
+
+                        <p class="product-price">
+                            GH₵350
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Classic Men's Shoes"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 8 -->
+                <div class="product-card" data-category="accessories">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-watches.jpeg" alt="BAFFI Classic Watches">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Accessories</span>
+
+                        <h3>BAFFI Classic Watch</h3>
+
+                        <p class="product-price">
+                            GH₵300
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Classic Watch"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 9 -->
+                <div class="product-card" data-category="accessories">
+
+                    <div class="product-image">
+                        <img src="images/premium-essential-cap.jpeg" alt="BAFFI Signature Cap">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Accessories</span>
+
+                        <h3>BAFFI Signature Cap</h3>
+
+                        <p class="product-price">
+                            GH₵100
+                        </p>
+
+                        <button
+                            class="btn add-to-cart"
+                            data-product="BAFFI Signature Cap"
+                            type="button"
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="no-products-message" id="no-products-message">
+                <h3>No products found</h3>
+                <p>We're currently updating this collection. Please explore another category.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHATSAPP CTA -->
+    <section class="cta-section">
+        <div class="container">
+
+            <h2>Need Help Choosing?</h2>
+
+            <p>
+                Chat with BAFFI directly on WhatsApp for product
+                information, sizing and orders.
+            </p>
+
+            <a
+                href="https://wa.me/233207417469"
+                target="_blank"
+                class="btn"
+            >
+                Chat on WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="footer-logo">
+                BAFFI
+            </a>
+
+            <p>
+                Modern men's fashion for the
+                modern Ghanaian man.
+            </p>
+        </div>
+
+        <div>
+            <h3>Shop</h3>
+
+            <a href="shop.html">All Products</a>
+            <a href="shop.html?category=casual">Casual Wear</a>
+            <a href="shop.html?category=formal">Formal Wear</a>
+            <a href="shop.html?category=accessories">Accessories</a>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+
+            <a href="about.html">About BAFFI</a>
+            <a href="contact.html">Contact</a>
+            <a href="delivery-policy.html">Delivery Policy</a>
+            <a href="returns-policy.html">Returns &amp; Exchanges</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+
+        <div>
+            <h3>Connect</h3>
+
+            <a href="https://www.instagram.com/baffi_apparel1/">Instagram</a>
+            <a href="https://www.facebook.com/baffiapparel">Facebook</a>
+            <a href="https://www.tiktok.com/@baffi_apparel1/">TikTok</a>
+
+            <a
+                href="https://wa.me/233207417469"
+                target="_blank"
+                rel="noopener"
+            >
+                WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 BAFFI. All rights reserved.</p>
+    </div>
+
+</footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
